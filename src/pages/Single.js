@@ -9,7 +9,8 @@ const Single = () => {
     <div className="single">
       <div className="content">
         <img
-          src="https://images.pexels.com/photos/403571/pexels-photo-403571.jpeg?cs=srgb&dl=pexels-scott-webb-403571"
+          src="https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?cs=srgb&dl=pexels-rovenimagescom-949587.jpg"
+          // src="https://images.pexels.com/photos/403571/pexels-photo-403571.jpeg?cs=srgb&dl=pexels-scott-webb-403571"
           // src="https://images.pexels.com/photos/403571/pexels-photo-403571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=7"
           alt=""
         />
@@ -44,6 +45,8 @@ const Single = () => {
           reiciendis velit aut veritatis! Corrupti tempora rerum doloribus fugit
           <br />
           <br />
+          voluptatum, consequatur quis illo tempora rerum doloribus fugit
+          voluptatum, consequatur quis illo tempora rerum doloribus fugit
           voluptatum, consequatur quis illo tempora rerum doloribus fugit
           voluptatum, consequatur quis illo tempora rerum doloribus fugit
           voluptatum, consequatur quis illo vitae quia nam, quo obcaecati in.
