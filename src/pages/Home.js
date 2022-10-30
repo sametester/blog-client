@@ -5,27 +5,28 @@ const Home = () => {
   const posts = [
     {
       id: 1,
-      title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, ',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      img: 'https://images.pexels.com/photos/7008010/pexels-photo-7008010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      title: '10 ประโยชน์ของการเล่น “โยคะ” ที่คุณอาจไม่เคยรู้มาก่อน',
+      desc: 'ปัจจุบัน โยคะ กลายเป็นกิจกรรมหรือกีฬาที่ได้รับความนิยมเป็นอย่างมาก เพราะนอกจากจะได้ทั้งผลดีในด้านสุขภาพร่างกายที่แข็งแรงแล้ว ยังได้จิตฝึกใจให้สงบสุข เพราะ โยคะ หมายถึง การรวมกาย จิตใจ และจิตวิญญาณให้กลายเป็นอันหนึ่งอันเดียวกันโดยเน้นการกำหนดลมหายใจ ',
+      img: 'https://www.organicbook.com/wp-content/uploads/2020/07/ประโยชน์จากการเล่นโยคะ-ที่คุณไม่เคยรู้มาก่อน.jpg',
+      // img: 'https://images.pexels.com/photos/7008010/pexels-photo-7008010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     },
     {
       id: 2,
-      title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, ',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      img: 'https://images.pexels.com/photos/6489663/pexels-photo-6489663.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      title: 'ต้องเดินกี่ก้าว ใน 1 วัน ถึงจะช่วย ลดน้ำหนักได้',
+      desc: 'การใช้ชีวิตของคน ส่วนใหญ่ ในปัจจุบัน มีแนวโน้มทำ กิจกรรม ที่ใช้การเคลื่อนไหวน้อยลง เช่นนั่งอยู่บนรถ นั่งทำงานในออฟฟิศ และ นั่งอยู่หน้าคอมพิวเตอร์นานๆ คนส่วนใหญ่รู้สึกว่าการใช้ชีวิตแบบนี้ เป็นชีวิตที่สะดวกสบาย ไม่ต้องเหนื่อย แต่ในความเป็นจริงแล้ว ร่างกายของเราถูกออกแบบมา ให้เคลื่อนไหวเป็นหลัก',
+      img: 'https://www.organicbook.com/wp-content/uploads/2020/06/ต้องเดินกี่ก้าว-ใน-1-วัน-ถึงจะช่วย-ลดน้ำหนักได้-730x430.jpg',
     },
     {
       id: 3,
-      title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, ',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      img: 'https://images.pexels.com/photos/4230630/pexels-photo-4230630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      title: 'ปรับการนอนให้เหมาะสมในแต่ละช่วงวัย เพื่อรักษาสมดุลในร่างกาย',
+      desc: 'วิถีชีวิตของคนในปัจจุบันดูเหมือนว่าจะทำให้การนอนพักผ่อนมีความสำคัญน้อยลง ไม่ว่าจะด้วยหน้าที่การงาน ความบันเทิงตลอด 24 ชม. และไลฟ์สไตล์สมัยใหม่ทำให้หลายคนนอนน้อยลงโดยไม่รู้ตัว ซึ่งการนอนน้อยเกินไปนั้นในระยะสั้นอาจไม่ส่งผลกระทบต่อสุขภาพเท่ากับในระยะยาวเมื่อแก่ตัวลง ซึ่งเป็นเงื่อนไขที่อาจนำไปสู่โรคร้ายจำนวนมากมายอย่างที่คาดไม่ถึงได้เลยทีเดียว',
+      img: 'https://cdn.pixabay.com/photo/2017/04/03/10/42/woman-2197947_960_720.jpg',
     },
     {
       id: 4,
-      title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, ',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      img: 'https://images.pexels.com/photos/6157049/pexels-photo-6157049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      title: 'โรคภูมิแพ้ สาเหตุและอาการ พร้อมทั้งวิธีการรักษาที่ถูกต้อง',
+      desc: 'โรคภูมิแพ้เป็นโรคที่พบบ่อยในคนไทยโรคนี้เกิดจากการที่ร่างกายได้รับสารก่อภูมิแพ้เข้าไปในร่างกายแล้วกระตุ้นให้ร่างกายสร้าง ภูมิคุ้มกันและมีปฏิกิริยาตอบสนองต่อสารนั้นมากผิดปกติ ภายหลังเมื่อได้รับสารนั้นเข้าไปอีก ภูมิคุ้มกันดังกล่าวก็จะกระตุ้นให้เกิดอาการซึ่งจะเกิดอาการเฉพาะในคนที่แพ้เท่านั้น ในคนปกติจะไม่เกิดอาการ สาเหตุเชื่อว่าเกิดจากปัจจัยทางพันธุกรรมและสิ่งแวดล้อม',
+      img: 'https://www.organicbook.com/wp-content/uploads/2019/03/โรคภูมิแพ้สาเหตุและอาการ-พร้อมทั้งวิธีการรักษาที่ถูกต้อง-730x430.jpg',
     },
   ];
 

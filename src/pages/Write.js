@@ -42,23 +42,23 @@ const Write = () => {
           </div>
           <div className="cat">
             <input type="radio" name="cat" value="science" id="science" />
-            <label htmlFor="art">Science</label>
+            <label htmlFor="science">Science</label>
           </div>
           <div className="cat">
             <input type="radio" name="cat" value="technology" id="technology" />
-            <label htmlFor="art">Technology</label>
+            <label htmlFor="technology">Technology</label>
           </div>
           <div className="cat">
             <input type="radio" name="cat" value="cinema" id="cinema" />
-            <label htmlFor="art">Cinema</label>
+            <label htmlFor="cinema">Cinema</label>
           </div>
           <div className="cat">
             <input type="radio" name="cat" value="design" id="design" />
-            <label htmlFor="art">Design</label>
+            <label htmlFor="design">Design</label>
           </div>
           <div className="cat">
             <input type="radio" name="cat" value="food" id="art" />
-            <label htmlFor="art">Food</label>
+            <label htmlFor="food">Food</label>
           </div>
         </div>
       </div>

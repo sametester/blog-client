@@ -9,9 +9,9 @@ const Single = () => {
     <div className="single">
       <div className="content">
         <img
-          src="https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?cs=srgb&dl=pexels-rovenimagescom-949587.jpg"
+          src="https://www.organicbook.com/wp-content/uploads/2019/03/เรียกคืนความสุขกลับมาให้ชีวิต-1-730x430.jpg"
+          // src="https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?cs=srgb&dl=pexels-rovenimagescom-949587.jpg"
           // src="https://images.pexels.com/photos/403571/pexels-photo-403571.jpeg?cs=srgb&dl=pexels-scott-webb-403571"
-          // src="https://images.pexels.com/photos/403571/pexels-photo-403571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=7"
           alt=""
         />
         <div className="user">
@@ -31,7 +31,7 @@ const Single = () => {
             <img src={Delete} alt="" />
           </div>
         </div>
-        <h1>หิว หิว แล้วเจอกัน.....</h1>
+        <h1>Blog</h1>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam nemo
           quae nisi eum cum. Illo quod fugit nemo voluptate, accusamus
